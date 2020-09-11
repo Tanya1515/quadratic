@@ -32,25 +32,25 @@ int main()
     double root2;
     switch(type_of_roots){
         case -1 :
-            printf("Every number can be a root of the equation");
+            printf("Every number can be a root of the equation\n");
             break;
         case 0 :
-            printf("There is no desicion of the equation");
+            printf("There is no desicion of the equation\n");
             break;
         case 1 :
             Root(coef2, coef1, coef0, &root1, &root2);
-            printf("There is only one root of the equation, that is %f", root1);
+            printf("There is only one root of the equation, that is %f\n", root1);
             break;
         case 2 :
             Root(coef2, coef1, coef0, &root1, &root2);
-            printf ("There are 2 roots of the equation, and they are %f,%f", root1, root2);
+            printf ("There are 2 roots of the equation, and they are %f,%f\n", root1, root2);
             break;
         case 3 :
             Root(coef2, coef1, coef0, &root1, &root2);
-            printf("There is only one root of the equation, that is %f", root1);
+            printf("There is only one root of the equation, that is %f\n", root1);
             break;
         case 4 :
-            printf ("There are 2 roots of the equation, and they are complex");
+            printf ("There are 2 roots of the equation, and they are complex\n");
             break;
     }
     return 0;
