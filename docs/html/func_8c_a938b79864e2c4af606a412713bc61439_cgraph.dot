@@ -1,0 +1,13 @@
+digraph "Print_result"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="Print_result",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Root",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func_8c.html#aceda5418fba0b768f7be53c72db831e1"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Discriminant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func_8c.html#aef42dad72ba0706d56ee4659b990a394"];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="Linaer_case",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$func_8c.html#a9289fbbf1539662114562a589fbe4703"];
+}

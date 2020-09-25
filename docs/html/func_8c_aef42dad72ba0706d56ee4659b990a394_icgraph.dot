@@ -1,0 +1,16 @@
+digraph "Discriminant"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Discriminant",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Num_of_Roots",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a6bfb49bdfd85aa135f4ca183cbde7d7f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Root",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#aceda5418fba0b768f7be53c72db831e1"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Print_result",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a938b79864e2c4af606a412713bc61439"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
